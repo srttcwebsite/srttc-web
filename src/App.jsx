@@ -82,7 +82,7 @@ import ExamPapersPage from './pages/Downloads/ExamPapersPage.jsx';
 
 const App = () => {
   return (
-    <Router>
+    <>
       <Header />
       <Navbar />
       <Routes>
@@ -146,7 +146,7 @@ const App = () => {
         <Route path="*" element={<ErrorPage />} />  
       </Routes>
       <Footer />
-    </Router>
+    </>
   );
 };
 
